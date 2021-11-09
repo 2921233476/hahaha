@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哲学板块</title>
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: white;
+            flex-flow: row wrap;
+            /* height: 500px;
+            width: 92em; */
+            /* justify-content: center; */
+            margin: 10px auto;
+           /* border-radius: 5px; */
+           box-shadow: 3px 3px 1px #7e7d7d;
+        }
+
+        .flex-container>div {
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+           border: 1px solid black;
+           /* width: 250px;
+            height: 150px; */
+        }
+        img {
+            width: 250px;
+            height: 150px;
+        }
+        .first {
+            width: 1300px;
+           height: 25px;
+           /* border: none; */ 
+            line-height: 70px;                                                             /*line-height不是平均分吗 */
+            font-size: 30px;
+        }
+        ol>li {
+           font-size: 20px;
+           font-weight: 700;
+        }
+        .div-plus {
+            background-color: white;
+            margin: 10px auto;
+           box-shadow: 3px 3px 1px #7e7d7d;
+           padding: 10px;
+        }
+        ._table {
+            text-align: center;
+            width: 95%;
+            margin: 0 auto;
+        }
+        a {
+            color: purple;
+        }
+    </style>
+</head>
+                                                                                        <!-- border放在上面为什么没效果 :权重-->
+<body style="background-color: rgb(197, 192, 192);">
+   
+    <div class="flex-container">
+        <div class="first"  style="border: none;">好看的图片</div>
+        <div> <img src="images/R-C.png"> </div>
+        <div> <img src="images/R-C.png"> </div>
+        <div> <img src="images/R-C.png"> </div>
+        <div> <img src="images/R-C.png"> </div>
+        <div> <img src="images/R-C.png"> </div>
+        <div> <img src="images/R-C.png"> </div>
+        <div> <img src="images/R-C.png"> </div>
+        <div> <img src="images/R-C.png"> </div>
+        <div> <img src="images/R-C.png"> </div>
+        <div> <img src="images/R-C.png"> </div>
+    </div>
+    <div class="div-plus">
+        <div style="margin-left: 20px;">
+        <h1>dio</h1>
+        <h2 style="font-weight: 400;">dio</h2>
+        <h3 style="font-weight: 400;">dio&emsp;2021/11/7</h3>
+   
+                <ol>
+                    <li>dio</li>
+                    <li>dio</li>
+                    <li>dio</li>
+                </ol>
+        </div>
+        <div>
+            <table border="1" cellspacing="0" class="_table">
+                <tr>
+                    <th width="20%">dio</th> <th width="20%">dio</th> <th width="10%">dio</th>
+                </tr>
+                <tr>
+                    <td>dio</td> <td>dio</td> <td> <a href="#">木大</a> </td>
+                </tr>
+                <tr>
+                    <td>dio</td> <td >dio</td> <td> <a href="#">木大</a> </td>
+                </tr>
+                <tr>
+                    <td>dio</td> <td>dio</td> <td> <a href="#">木大</a> </td>
+                </tr>
+                <tr>
+                    <td>dio</td> <td >doi</td> <td> <a href="#">木大</a> </td>
+                </tr>
+                <tr>
+                    <td>总计</td> <td colspan="2">1000次</td>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
